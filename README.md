@@ -27,3 +27,4 @@ miiiiiin, min.songkyung@gmail.com
 ## License
 
 GeoJsonParser is available under the MIT license. See the LICENSE file for more info.
+# GeoJsonParser
