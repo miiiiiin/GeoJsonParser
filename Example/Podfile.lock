@@ -4,7 +4,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - GeoJsonParser (0.1.0)
+  - GeoJsonParser (1.0.0):
+    - ObjectMapper
+  - ObjectMapper (4.2.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -13,6 +15,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - ObjectMapper
 
 EXTERNAL SOURCES:
   GeoJsonParser:
@@ -20,7 +23,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GeoJsonParser: 9f75ea24ff8cfcd9837c41c43d9c3352ba516ada
+  GeoJsonParser: da45f8611fe04ac5bd435b578ce6592385e95260
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
 
 PODFILE CHECKSUM: 25c6f4579c494687d2ddf641d0c1c54e8676cb54
 

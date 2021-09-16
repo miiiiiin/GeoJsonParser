@@ -32,6 +32,17 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'GeoJsonParser/Classes/**/*'
   s.frameworks = 'UIKit'
+  s.static_framework = true
+  s.dependency 'ObjectMapper'
+
+  s.default_subspec = "Core"
+  
+  s.subspec "Core" do |ss|
+    ss.source_files  = "GeoJsonParser/Classes/*.swift"
+    ss.dependency "GoogleMaps"
+    ss.dependency "ObjectMapper"
+    ss.framework  = "Foundation"
+  end
 
   # s.resource_bundles = {
   #   'GeoJsonParser' => ['GeoJsonParser/Assets/*.png']

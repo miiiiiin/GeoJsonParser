@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2711A3EB7B789C47272F146C /* Pods_GeoJsonParser_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629A5C7E9868CDB5A6ABA773 /* Pods_GeoJsonParser_Example.framework */; };
-		5F0635918EA61550B1CB4AE0 /* Pods_GeoJsonParser_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAFB0AB0CB322818D8784AF /* Pods_GeoJsonParser_Tests.framework */; };
+		42E07FE62A90399DD6F893DE /* Pods_GeoJsonParser_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1C187A1AFB1912D3E2FA23 /* Pods_GeoJsonParser_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		86A6903200264E288A8721A3 /* Pods_GeoJsonParser_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5140E93CBA74BF1893A23374 /* Pods_GeoJsonParser_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		015AD986DA96A812626B0CE7 /* Pods-GeoJsonParser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoJsonParser_Tests.release.xcconfig"; path = "Target Support Files/Pods-GeoJsonParser_Tests/Pods-GeoJsonParser_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		02BE4523F382F80B9188494A /* Pods-GeoJsonParser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoJsonParser_Example.release.xcconfig"; path = "Target Support Files/Pods-GeoJsonParser_Example/Pods-GeoJsonParser_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0CAFB0AB0CB322818D8784AF /* Pods_GeoJsonParser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoJsonParser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0362DCDD43522257F79C20E9 /* Pods-GeoJsonParser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoJsonParser_Example.debug.xcconfig"; path = "Target Support Files/Pods-GeoJsonParser_Example/Pods-GeoJsonParser_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		05935F66B1C560984FA5E9BB /* Pods-GeoJsonParser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoJsonParser_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GeoJsonParser_Tests/Pods-GeoJsonParser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5140E93CBA74BF1893A23374 /* Pods_GeoJsonParser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoJsonParser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1C187A1AFB1912D3E2FA23 /* Pods_GeoJsonParser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoJsonParser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* GeoJsonParser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoJsonParser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +42,11 @@
 		607FACE51AFB9204008FA782 /* GeoJsonParser_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoJsonParser_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		629A5C7E9868CDB5A6ABA773 /* Pods_GeoJsonParser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoJsonParser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6466B712A710D21374204937 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		64C263C2C21C72FAB75A4EE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		96EFED380D56D86AE05A0B9C /* Pods-GeoJsonParser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoJsonParser_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GeoJsonParser_Tests/Pods-GeoJsonParser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B2945207B2D4577E3D007300 /* Pods-GeoJsonParser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoJsonParser_Example.debug.xcconfig"; path = "Target Support Files/Pods-GeoJsonParser_Example/Pods-GeoJsonParser_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E4AD7A08EE5D1D7518E63C94 /* GeoJsonParser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GeoJsonParser.podspec; path = ../GeoJsonParser.podspec; sourceTree = "<group>"; };
+		6466B712A710D21374204937 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		64C263C2C21C72FAB75A4EE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7BB9B5EE819008AC5DEAD2F0 /* Pods-GeoJsonParser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoJsonParser_Tests.release.xcconfig"; path = "Target Support Files/Pods-GeoJsonParser_Tests/Pods-GeoJsonParser_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B4DFC04D1F9BF309637FA351 /* Pods-GeoJsonParser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoJsonParser_Example.release.xcconfig"; path = "Target Support Files/Pods-GeoJsonParser_Example/Pods-GeoJsonParser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E4AD7A08EE5D1D7518E63C94 /* GeoJsonParser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GeoJsonParser.podspec; path = ../GeoJsonParser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2711A3EB7B789C47272F146C /* Pods_GeoJsonParser_Example.framework in Frameworks */,
+				42E07FE62A90399DD6F893DE /* Pods_GeoJsonParser_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F0635918EA61550B1CB4AE0 /* Pods_GeoJsonParser_Tests.framework in Frameworks */,
+				86A6903200264E288A8721A3 /* Pods_GeoJsonParser_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +72,11 @@
 		0447A6E1DF320ED3C6612CB6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B2945207B2D4577E3D007300 /* Pods-GeoJsonParser_Example.debug.xcconfig */,
-				02BE4523F382F80B9188494A /* Pods-GeoJsonParser_Example.release.xcconfig */,
-				96EFED380D56D86AE05A0B9C /* Pods-GeoJsonParser_Tests.debug.xcconfig */,
-				015AD986DA96A812626B0CE7 /* Pods-GeoJsonParser_Tests.release.xcconfig */,
+				0362DCDD43522257F79C20E9 /* Pods-GeoJsonParser_Example.debug.xcconfig */,
+				B4DFC04D1F9BF309637FA351 /* Pods-GeoJsonParser_Example.release.xcconfig */,
+				05935F66B1C560984FA5E9BB /* Pods-GeoJsonParser_Tests.debug.xcconfig */,
+				7BB9B5EE819008AC5DEAD2F0 /* Pods-GeoJsonParser_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -89,7 +88,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				0447A6E1DF320ED3C6612CB6 /* Pods */,
-				7FDEB16402E20317E9D21902 /* Frameworks */,
+				6FE0CED99586C660E47887CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,11 +150,11 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		7FDEB16402E20317E9D21902 /* Frameworks */ = {
+		6FE0CED99586C660E47887CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				629A5C7E9868CDB5A6ABA773 /* Pods_GeoJsonParser_Example.framework */,
-				0CAFB0AB0CB322818D8784AF /* Pods_GeoJsonParser_Tests.framework */,
+				5C1C187A1AFB1912D3E2FA23 /* Pods_GeoJsonParser_Example.framework */,
+				5140E93CBA74BF1893A23374 /* Pods_GeoJsonParser_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,11 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GeoJsonParser_Example" */;
 			buildPhases = (
-				6136D63C5A5EE14AB23781AF /* [CP] Check Pods Manifest.lock */,
+				CFB693D0B2471D3A27179309 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				41F80288FBF1509CF41D8A81 /* [CP] Embed Pods Frameworks */,
+				8353942176F2A702A1094E22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,11 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GeoJsonParser_Tests" */;
 			buildPhases = (
-				BF334D7331C95E492DE65E04 /* [CP] Check Pods Manifest.lock */,
+				F76711CB6ACFCEEE5BD17B65 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				E49430DB8285995AAC0DD5D6 /* [CP] Embed Pods Frameworks */,
+				C36C5738DD96BB12449EE054 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JH6HFBQXT6;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JH6HFBQXT6;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -263,25 +265,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		41F80288FBF1509CF41D8A81 /* [CP] Embed Pods Frameworks */ = {
+		8353942176F2A702A1094E22 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GeoJsonParser_Example/Pods-GeoJsonParser_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GeoJsonParser/GeoJsonParser.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GeoJsonParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoJsonParser_Example/Pods-GeoJsonParser_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6136D63C5A5EE14AB23781AF /* [CP] Check Pods Manifest.lock */ = {
+		C36C5738DD96BB12449EE054 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoJsonParser_Tests/Pods-GeoJsonParser_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoJsonParser_Tests/Pods-GeoJsonParser_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB693D0B2471D3A27179309 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,7 +323,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BF334D7331C95E492DE65E04 /* [CP] Check Pods Manifest.lock */ = {
+		F76711CB6ACFCEEE5BD17B65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,24 +343,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E49430DB8285995AAC0DD5D6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GeoJsonParser_Tests/Pods-GeoJsonParser_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoJsonParser_Tests/Pods-GeoJsonParser_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -438,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -484,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -494,9 +496,10 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2945207B2D4577E3D007300 /* Pods-GeoJsonParser_Example.debug.xcconfig */;
+			baseConfigurationReference = 0362DCDD43522257F79C20E9 /* Pods-GeoJsonParser_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JH6HFBQXT6;
 				INFOPLIST_FILE = GeoJsonParser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -509,9 +512,10 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02BE4523F382F80B9188494A /* Pods-GeoJsonParser_Example.release.xcconfig */;
+			baseConfigurationReference = B4DFC04D1F9BF309637FA351 /* Pods-GeoJsonParser_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JH6HFBQXT6;
 				INFOPLIST_FILE = GeoJsonParser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -524,8 +528,9 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96EFED380D56D86AE05A0B9C /* Pods-GeoJsonParser_Tests.debug.xcconfig */;
+			baseConfigurationReference = 05935F66B1C560984FA5E9BB /* Pods-GeoJsonParser_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JH6HFBQXT6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -546,8 +551,9 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 015AD986DA96A812626B0CE7 /* Pods-GeoJsonParser_Tests.release.xcconfig */;
+			baseConfigurationReference = 7BB9B5EE819008AC5DEAD2F0 /* Pods-GeoJsonParser_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JH6HFBQXT6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -1,6 +1,6 @@
 {
   "name": "GeoJsonParser",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of GeoJsonParser.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/miiiiiin/GeoJsonParser",
@@ -13,10 +13,22 @@
   },
   "source": {
     "git": "https://github.com/miiiiiin/GeoJsonParser.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
+  "swift_versions": [
+    "4.2",
+    "5.0"
+  ],
   "platforms": {
-    "ios": "9.0"
+    "ios": "13.0"
   },
-  "source_files": "GeoJsonParser/Classes/**/*"
+  "source_files": "GeoJsonParser/Classes/**/*",
+  "frameworks": "UIKit",
+  "static_framework": true,
+  "dependencies": {
+    "ObjectMapper": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }
