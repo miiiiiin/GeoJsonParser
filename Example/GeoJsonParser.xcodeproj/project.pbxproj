@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		7D9A503B26F3033700E9E951 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A503A26F3033700E9E951 /* MapViewController.swift */; };
 		86A6903200264E288A8721A3 /* Pods_GeoJsonParser_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5140E93CBA74BF1893A23374 /* Pods_GeoJsonParser_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		6466B712A710D21374204937 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		64C263C2C21C72FAB75A4EE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7BB9B5EE819008AC5DEAD2F0 /* Pods-GeoJsonParser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoJsonParser_Tests.release.xcconfig"; path = "Target Support Files/Pods-GeoJsonParser_Tests/Pods-GeoJsonParser_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7D9A503A26F3033700E9E951 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		B4DFC04D1F9BF309637FA351 /* Pods-GeoJsonParser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoJsonParser_Example.release.xcconfig"; path = "Target Support Files/Pods-GeoJsonParser_Example/Pods-GeoJsonParser_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E4AD7A08EE5D1D7518E63C94 /* GeoJsonParser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GeoJsonParser.podspec; path = ../GeoJsonParser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -110,6 +112,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				7D9A503A26F3033700E9E951 /* MapViewController.swift */,
 			);
 			name = "Example for GeoJsonParser";
 			path = GeoJsonParser;
@@ -353,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				7D9A503B26F3033700E9E951 /* MapViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,28 +15,27 @@ extension String {
             return nil
         }
         
-//        switch type {
-//        case "Point":
-//            return GeoPoint(JSONString: self)
-//
-//        case "LineString":
-//            return GeoLineString(JSONString: self)
-//
-//        case "Polygon":
-//            return GeoPolygon(JSONString: self)
-//
-//        case "MultiPoint":
-//            return GeoMultiPolygon(JSONString: self)
-//
-//        case "MultiLineString":
-//            return GeoMultiLineString(JSONString: self)
-//
-//        case "MultiPolygon":
-//            return GeoMultiPolygon(JSONString: self)
-//        default:
-//            return nil
-//        }
-        return nil
+        switch type {
+        case "Point":
+            return GeoPoint(JSONString: self)
+
+        case "LineString":
+            return GeoLineString(JSONString: self)
+
+        case "Polygon":
+            return GeoPolygon(JSONString: self)
+
+        case "MultiPoint":
+            return GeoMultiPolygon(JSONString: self)
+
+        case "MultiLineString":
+            return GeoMultiLineString(JSONString: self)
+
+        case "MultiPolygon":
+            return GeoMultiPolygon(JSONString: self)
+        default:
+            return nil
+        }
     }
 }
 
