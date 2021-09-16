@@ -1,0 +1,6 @@
+framework module GeoJsonParser {
+  umbrella header "GeoJsonParser-umbrella.h"
+
+  export *
+  module * { export * }
+}
